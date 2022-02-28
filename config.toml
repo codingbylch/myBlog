@@ -14,7 +14,7 @@ description = "hi~ 这是我的个人博客"
 #  日期格式
 dateFormat = "2006-01-02"
 # 网站图片, 用于 Open Graph 和 Twitter Cards
-images = ["./assets/images/portrait.jpg"]
+images = ["favicon.ico"]
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "LoveIt"
 
@@ -70,9 +70,9 @@ theme = "LoveIt"
     [params.home.profile]
       enable = true
       # Gravatar 邮箱，用于优先在主页显示的头像
-      gravatarEmail = "ilinf@foxmail.com"
+      gravatarEmail = ""
       # 主页显示头像的 URL
-      avatarURL = "https://s2.loli.net/2022/02/28/qyGnTefk1MzLCEZ.png"
+      avatarURL = "android-chrome-192x192.png"
       #  主页显示的网站标题 (支持 HTML 格式)
       title = "life.todo"
       # 主页显示的网站副标题
