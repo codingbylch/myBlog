@@ -169,8 +169,8 @@ theme = "LoveIt"
       # Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
       [params.page.comment.gitalk]
         enable = true
-        owner = "xodingbylch"
-        repo = "https://github.com/codingbylch/gitalkSaveDiscuss"
+        owner = "codingbylch"
+        repo = "gitalkSaveDiscuss"
         clientId = "2b4b0f7f3797a7af29ca"
         clientSecret = "8650251da8123b3a1deeb4d703bacee38d3654ab"
       
