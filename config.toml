@@ -169,10 +169,10 @@ theme = "LoveIt"
       # Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
       [params.page.comment.gitalk]
         enable = true
-        owner = "codingbylch"
+        owner = "xodingbylch"
         repo = "https://github.com/codingbylch/gitalkSaveDiscuss"
-        clientId = "2f758bc14e6de746a170"
-        clientSecret = "f78acbd52e48057d0c6bfc2939bf3f478519e1a2"
+        clientId = "2b4b0f7f3797a7af29ca"
+        clientSecret = "8650251da8123b3a1deeb4d703bacee38d3654ab"
       
   # 页面底部信息配置
   [params.footer]
