@@ -49,9 +49,9 @@ theme = "LoveIt"
     # 是否在搜索索引中使用基于 baseURL 的绝对路径
     absoluteURL = false
     [params.search.algolia]
-      index = ""
-      appID = "AD1ORKCXZB"
-      searchKey = "a8e8ef1ab2bc978af37b97ddd11d348f"  
+      index = "myblog_index_1"
+      appID = "L9HLAX30UO"
+      searchKey = "98310141cc3a6707d5d8440f24ae9c88"  
   
   # 文章页面全局配置
   [params.page]
