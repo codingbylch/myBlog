@@ -18,12 +18,6 @@ images = ["favicon.ico"]
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "LoveIt"
 
-[outputs]
-  home = ["HTML", "RSS", "JSON", "Algolia"]
-  page = ["HTML", "MarkDown"]
-  section = ["HTML", "RSS"]
-  taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML"]
 
 [params]
   # 网站默认主题 ["auto", "light", "dark"]
