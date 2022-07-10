@@ -2,6 +2,8 @@
 title: "Clean Code For JS 指南"
 date: 2022-07-07T00:23:56+08:00
 draft: false
+tags: ['JavaScript', '规范']
+categories: ['前端']
 ---
 
 仅供参考，不必可以遵循。
