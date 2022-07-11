@@ -33,7 +33,10 @@ categories: ['工具']
 - 删除远程分支：$ git push origin --delete [branchname]
 - **从远程拉取分支到本地：git checkout -b xxx origin/xxx**
 
-git checkout -b [新本地分支名]：创建以后执行git push会提示没有对应的远程分支关联：<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/714353/1593419663768-3bf09571-ddeb-4641-89b5-f3bf0c1d07d7.png#height=105&id=NTKxI&margin=%5Bobject%20Object%5D&name=image.png&originHeight=105&originWidth=656&originalType=binary&ratio=1&size=11951&status=done&style=none&width=656)<br />这时候可以通过 **git push --set-upstream origin feature-v1.5 来进行关联**（假设本地分支为`feature-v1.5`），执行之后远程会自动新增对应的分支，然后进行关联。<br />若创建以后直接执行：**git push origin [新本地分支名]** 就会在远程新创建一个分支并进行关联、推送。
+git checkout -b [新本地分支名]：创建以后执行git push会提示没有对应的远程分支关联：<br />
+![](https://s2.loli.net/2022/07/11/Jmi7vgxdNPO53zo.png)<br />
+这时候可以通过 **git push --set-upstream origin feature-v1.5 来进行关联**（假设本地分支为`feature-v1.5`），执行之后远程会自动新增对应的分支，然后进行关联。<br />
+若创建以后直接执行：**git push origin [新本地分支名]** 就会在远程新创建一个分支并进行关联、推送。
 
 ### Tag相关指令
 
