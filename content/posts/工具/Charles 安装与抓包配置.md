@@ -1,0 +1,40 @@
+---
+title: "Charles 安装与抓包配置"
+date: 2021-01-01T00:00:00+08:00
+draft: false
+tags: ['工具', '基础']
+categories: ['工具']
+---
+### 软件功能
+1、截取Http 和 Https 网络封包<br />2、支持重发网络请求，方便后端调试<br />3、支持修改网络请求参数<br />4、支持网络请求的截获并动态修改<br />5、支持模拟慢速网络
+
+### 安装与配置
+
+1. 安装：绿色汉化版已保存在微云中，下载解压即可。
+1. 注册码：
+```
+Charles注册码：
+用户名：codingbylch
+license：77027BFA4AEE15C2F7
+用户名：oneper
+license：A94C9993054F6AF3EA
+```
+
+3. 安装SSL证书：帮助 - SSL代理 - 安装Charles根证书，点击安装证书 - 选择当前用户，下一步 - 选择将所有的证书都放入下列存储 - 点击浏览，选择受信任的根证书颁发机构 - 点击确定 - 下一步，完成。
+3. SSL代理设置：
+
+![](https://raw.githubusercontent.com/codingbylch/picgo-storage/master/202207112322601.png%26originHeight%3D631%26originWidth%3D812%26originalType%3Dbinary%26ratio%3D1%26size%3D41532%26status%3Ddone%26style%3Dnone%26width%3D406?token=AEHKWIMNOMV6XWW3R4XGG43CZRAGE)
+
+可以对想观察的网址进行过滤，简单的设置就是，某个网址右键 - 重点（Focus）
+
+### 重发网络请求
+选中某个请求，点击图标栏上的“**循环圈💫**”，即可重发请求
+
+### 修改网络请求
+选中想编写的请求，然后点击图标栏上的“**笔🖊**”的图标，即可基于原请求进行新请求的编写，如图所示：<br />![image.png](https://cdn.nlark.com/yuque/0/2021/png/714353/1621256342775-bd57fa3b-0290-4950-981a-1337590aa46f.png#height=494&id=ue4c6c543&margin=%5Bobject%20Object%5D&name=image.png&originHeight=605&originWidth=730&originalType=binary&ratio=1&size=96740&status=done&style=none&width=596)
+
+### 截获网络请求并编辑 | 设置断点
+选中某请求，点击图标栏的“六边形”，即可启动断点。<br />断点设置：选中某请求，右键 - 断点，则该请求将被设置断点，点击“工具栏 - 断点设置”，可对该断点做进一步的设置。
+
+### 模拟网速功能 | 限流
+法一：工具栏的代理—限流设置—启用限流<br />法二：图标栏中有一个“**乌龟🐢**”的小图标，点击变亮即启动限流
