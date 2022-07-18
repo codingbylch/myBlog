@@ -5,7 +5,6 @@ draft: false
 tags: ['node', '基础']
 categories: ['Node']
 ---
-<meta name="referrer" content="no-referrer" />
 > 参考资料：
 > 1. [nodejs打包js模块并发布到npm使用或者直接打包到本地使用](https://www.dazhuanlan.com/2020/01/23/5e2924ba1fe90/)
 > 1. [整体打包vue组件并发布到npm](https://blog.csdn.net/weixin_43909743/article/details/109267953)
